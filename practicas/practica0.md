@@ -1,15 +1,15 @@
 
-#Practica 0
+# Practica 0
 
-##Objetivo:
+## Objetivo:
 Compilar y correr xv6
 
-##Herramientas:
-*gcc -> compilar 
-*gemu -> maquina virtual
-*make -> automatizacion
+## Herramientas:
+* gcc -> compilar 
+* gemu -> maquina virtual
+* make -> automatizacion
 
-##Concepto:
+## Concepto:
 codigo fuente: un programa que está compuesto. Un Sistema Operativo: Está compuesto de un kernel y aplicaciones del sistema
 
-##que aprendi
+## que aprendi
