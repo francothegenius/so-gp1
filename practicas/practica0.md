@@ -10,6 +10,8 @@ Compilar y correr xv6
 * make -> automatizacion
 
 ## Concepto:
-codigo fuente: un programa que está compuesto. Un Sistema Operativo: Está compuesto de un kernel y aplicaciones del sistema
+Codigo fuente: un programa que está compuesto. Un Sistema Operativo: Está compuesto de un kernel y aplicaciones del sistema
 
-## que aprendi
+## ¿Qué aprendí?
+Aprendí las funcionalidades de cada herramientas puesto en practica. De la misma manera, aprendí la creación de tags en la cual... ciertas  en este caso 
+
