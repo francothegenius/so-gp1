@@ -22,13 +22,13 @@ Crear dos llamadas a sistema, una para apagar y otra para reiniciar.
 * Se enciende cuando se ejecuta el kernel
 
 3) Interrupciones
-* Como el hardware 
+* Cómo el hardware interactua con el CPU
 
 4) Interrupciones via software (trap)
-*Software coumincar con el kernel, SF -> CPU -> Kernel
+* Software coumincar con el kernel, SF -> CPU -> Kernel
 
-## Qué aprendí
-
+## ¿Qué aprendí?
+En esta práctica aprendí la forma de solicitar llamadas a sistema a traves interrupciones via software que son constituidas por instrucciones
 ## URL del commit
 https://github.com/francothegenius/so-gp1/commit/6122bdb0e65adde7233b22704a9c5d0c212b5bb7
 
