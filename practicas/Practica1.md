@@ -29,4 +29,6 @@ Crear dos llamadas a sistema, una para apagar y otra para reiniciar.
 
 ## Qué aprendí
 
-##URL del commit
+## URL del commit
+https://github.com/francothegenius/so-gp1/commit/6122bdb0e65adde7233b22704a9c5d0c212b5bb7
+
