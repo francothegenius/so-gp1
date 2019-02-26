@@ -15,7 +15,7 @@ Modificar al programa sh para ejecutar el programa anterior
 
 * Instancia de un programa
 * Está compuesta de 3 partes:
-** stack: variables está limitado; crece de arriba hacia abajo. StackOverFlow
+  * stack: variables está limitado; crece de arriba hacia abajo. StackOverFlow
 ** heap: area de memoria dinamica = RAM + SWAP
 ** codigo: segmentado, ie es una parte.
 
