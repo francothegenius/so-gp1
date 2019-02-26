@@ -1,8 +1,8 @@
 # Practica 2
 
 ## Objetivo:
-Modificar al programa init para imprimir un mensaje de bienvenida.
-Modificar al programa sh para ejecutar el programa anterior
+* Modificar al programa init para imprimir un mensaje de bienvenida.
+* Modificar al programa sh para ejecutar el programa anterior
 
 ## Herramientas:
 * make
