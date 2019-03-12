@@ -7,7 +7,7 @@
 * make
 * xv6
 
-#Conceptos:
+# Conceptos:
 * Planificación
   * Seleccionar al proceso a ejecutar.
   
