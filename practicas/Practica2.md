@@ -30,4 +30,5 @@
 
 ## ¿Qué aprendí?
 * Función de fork() para la creación de procesos
-
+* Lectura de caracteres del shell a traves del buffer
+* Interpretación de un "key shortcut" para la ejecución de una comando anterior
