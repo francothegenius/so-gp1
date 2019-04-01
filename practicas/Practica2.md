@@ -28,4 +28,6 @@
 * Hay un proceso padre:
   * init
 
+## ¿Qué aprendí?
+* Función de fork() para la creación de procesos
 
