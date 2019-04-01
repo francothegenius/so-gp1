@@ -18,5 +18,7 @@
 * Estados de un proceso
 
 # ¿Qué aprendí?
+* Funcionamiento de un planificador de procesos
+* Creación de funciones que permitan planificar procesos a partir de sus prioridades, además de su modificación y consulta.
 
 # URL del commit
