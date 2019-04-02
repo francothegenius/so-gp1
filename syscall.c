@@ -136,6 +136,7 @@ static int (*syscalls[])(void) = {
 [SYS_getpriority]  sys_getpriority,
 [SYS_date] sys_date,
 };
+//llamadas a sistema
 
 void
 syscall(void)
