@@ -107,6 +107,7 @@ extern int sys_shutdown(void);
 extern int sys_reboot(void);
 extern int sys_setpriority(void);
 extern int sys_getpriority(void);
+extern int sys_date(void);
 
 static int (*syscalls[])(void) = {
 [SYS_fork]    sys_fork,
@@ -133,6 +134,7 @@ static int (*syscalls[])(void) = {
 [SYS_shutdown]   sys_shutdown,
 [SYS_setpriority]   sys_setpriority,
 [SYS_getpriority]  sys_getpriority,
+[SYS_date] sys_date,
 };
 
 void
@@ -140,9 +142,40 @@ syscall(void)
 {
   int num;
   struct proc *curproc = myproc();
+	
+  char *syscall_names[]
+						= {
+	                        "SYS_fork",
+	                        "SYS_exit",
+	                        "SYS_wait",
+	                        "SYS_pipe",
+	                        "SYS_read",
+	                        "SYS_kill",
+	                        "SYS_exec",
+	                        "SYS_fstat",
+	                        "SYS_chdir",
+	                        "SYS_dup",
+	                        "SYS_getpid",
+	                        "SYS_sbrk",
+	                        "SYS_sleep",
+	                        "SYS_uptime",
+	                        "SYS_open",
+	                        "SYS_write",
+	                        "SYS_mknod",
+	                        "SYS_unlink",
+	                        "SYS_link",
+	                        "SYS_mkdir",
+	                        "SYS_close",
+	                        "SYS_shutdown",
+	                        "SYS_reboot",
+	                        "SYS_setpriority",
+	                        "SYS_getpriority",
+  							"SYS_date"};
 
   num = curproc->tf->eax;
+	//cprintf("Numero de syscall%d",num); //imprime numero proceso
   if(num > 0 && num < NELEM(syscalls) && syscalls[num]) {
+	  cprintf(" Syscall: %s → %d \n", syscall_names[num],num);
     curproc->tf->eax = syscalls[num]();
   } else {
     cprintf("%d %s: unknown sys call %d\n",
