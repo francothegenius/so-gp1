@@ -19,7 +19,10 @@ Hacer un spike sobre IPC: señales, fork/eject, memoria compartida y archivos ma
 * Archivos mapeados a memoria:
   * Es un bloque de memoria compartida que está asociado a un archivo.
   * Los cambioes en el bloque se guardan automaticamente.
+  
 # ¿Qué aprendí?
+
+# URL del commit.
 
 
    
