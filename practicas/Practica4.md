@@ -4,7 +4,7 @@ Hacer un spike sobre IPC: señales, fork/eject, memoria compartida y archivos ma
 * git
 * gcc
 
-#Conceptos:
+# Conceptos:
 * IPC
   * Comunicación entre procesos
 * Señales:
@@ -16,4 +16,10 @@ Hacer un spike sobre IPC: señales, fork/eject, memoria compartida y archivos ma
   * Cualquier proceso con el key se puede conectar al bloque.
   * El bloque de memoria persiste hasa que se borre mediante un comando o se reinicie la computadora.
   
+* Archivos mapeados a memoria:
+  * Es un bloque de memoria compartida que está asociado a un archivo.
+  * Los cambioes en el bloque se guardan automaticamente.
+# ¿Qué aprendí?
+
+
    
