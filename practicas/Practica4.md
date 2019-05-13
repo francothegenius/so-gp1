@@ -21,6 +21,11 @@ Hacer un spike sobre IPC: señales, fork/eject, memoria compartida y archivos ma
   * Los cambioes en el bloque se guardan automaticamente.
   
 # ¿Qué aprendí?
+* Creacion de procesos con la syscall 'fork()'
+* Creacion de señales
+* Manejo de señales 
+* Acceso a espacios de memoria a nivel de registros
+
 
 # URL del commit.
 https://github.com/francothegenius/so-gp1/commit/551cbd6e43d9470fdad66aebf9ac42fc80163d82
