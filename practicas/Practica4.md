@@ -23,6 +23,5 @@ Hacer un spike sobre IPC: señales, fork/eject, memoria compartida y archivos ma
 # ¿Qué aprendí?
 
 # URL del commit.
-
-
+https://github.com/francothegenius/so-gp1/commit/551cbd6e43d9470fdad66aebf9ac42fc80163d82
    
