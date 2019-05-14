@@ -24,6 +24,10 @@ Hacer un spike sobre hilos, semaforos y locks.
  
   
 # ¿Qué aprendí?
+* Creación e implementación de hilos.
+* Creación e implementación de semaforos.
+* Conocimiento práctico de deadlocks debido a falta de recursos y posibles soluciones.
+
 
 # URL del commit.
 https://github.com/francothegenius/so-gp1/commit/6531b969dabc8adb21aa6bcf91f80c80fd3f502d
